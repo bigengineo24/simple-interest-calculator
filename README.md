@@ -1,21 +1,9 @@
-# Simple Interest Calculator
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-A simple open-source Bash script that calculates simple interest using the formula:
-
-SI = (P × R × T) / 100
-
----
-
-## Project Description
-This project is created for a micro-finance startup transitioning from SVN to Git.  
-It demonstrates:
-- Basic GitHub best practices  
-- Open-source documentation  
-- Apache 2.0 licensing  
-
----
-
-## Installation Instructions
-Clone the repository:
-```sh
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
 git clone https://github.com/bigengineo24/simple-interest-calculator.git
